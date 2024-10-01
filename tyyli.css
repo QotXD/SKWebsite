@@ -26,6 +26,7 @@ body {background-color:#151719;
             display:inline-block;
             padding: 10px;
             
+            
            
            
         }
@@ -64,8 +65,15 @@ body {background-color:#151719;
             font-size: 26px;
     }
 
+<<<<<<< HEAD
             p.class3 {text-align:center;     
               margin: 20px 25px 1px 10px;
+=======
+            p.class3 {text-align:center;         
+                position:relative;
+                display:block;
+                padding: 10px;
+>>>>>>> 732e12a3732959350db144e37d6fb0121898129e
                 text-decoration: none;
                 word-spacing: 60px;
                 font-size: 26px;
