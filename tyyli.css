@@ -10,7 +10,7 @@ body {background-color:#151719;
     img.class2 {
     width: 100px;
     overflow: hidden;
-    margin: 20px 50% 1px 10px;
+    margin: 20px 50% 1px 20px;
     
 }    
     img.html {width: 80px;
@@ -25,7 +25,6 @@ body {background-color:#151719;
           margin: 10px 1px 10px 10px;
             display:inline-block;
             padding: 10px;
-            
             
            
            
@@ -65,15 +64,8 @@ body {background-color:#151719;
             font-size: 26px;
     }
 
-<<<<<<< HEAD
             p.class3 {text-align:center;     
               margin: 20px 25px 1px 10px;
-=======
-            p.class3 {text-align:center;         
-                position:relative;
-                display:block;
-                padding: 10px;
->>>>>>> 732e12a3732959350db144e37d6fb0121898129e
                 text-decoration: none;
                 word-spacing: 60px;
                 font-size: 26px;
@@ -113,14 +105,74 @@ body {background-color:#151719;
       nav :hover{
         color: #ffffffbb;
     }
+
+
+    @media screen and (max-width: 1280px) {
+      .show-on-desktop {
+        display: none;
+      }
+    }
+    
+    @media screen and (min-width: 1281px) {
+      .hide-on-desktop {
+        display: none;
+      }
+    }
+    
+
+    .mobile-container {
+      min-width: 601px;
+      margin: auto;
+      background-color: #555;
+      height: 500px;
+      color: white;
+      border-radius: 10px;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #C41E3A;
+      margin: auto;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      background: #C41E3A;
+      display: block;
+      position: absolute;
+      right: 10%;
+      top: 5%;
+      font-size: 30px;
+      text-align:center;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+
    
+
+    @media only screen and (max-width: 1280px),
+    only screen and (min-width:1281px) {
+
     div.gallery {
-        margin: 5px;
+      margin: 25px 3px 5px 3px;
         border: 1px solid #ffffff;
-        float:left;
         width: 180px;
-        position:relative;
-        left: 25%;
+        display:inline-block;
       }
       
       div.gallery:hover {
@@ -136,7 +188,7 @@ body {background-color:#151719;
         padding: 15px;
         text-align: center;
       }
-
+    }
 div.center {
       padding: 15px;
       text-align: center;

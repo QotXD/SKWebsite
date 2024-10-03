@@ -1,8 +1,8 @@
 <!DOCTYPE html> 	
-<html lang="en">
+<html lang="fi">
 <head>
 
-<title>Projects</title>
+<title>Lorem</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
@@ -11,44 +11,48 @@
 
 <!--Minun puhelimen viewport 384px x 725px, DPR 2.81, Screen Size 384px x 854px-->
 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="tyyli.css" rel="stylesheet" type="text/css">
 </head>
     
 <body>
+  <div class="show-on-desktop hide-on-mobile">
+ <nav> <a href="index.html" class="class3" > <img src="logo.png" alt="logo" class="class2" class="img-fluid"> </a> 
+    <a href="about.html" class="class3" target="_self">About</a> 
+<a href="projects.html"  class="class3" target="_self">Projects</a> 
+<a href="contact.html" class="class3" target="_self">Contacts</a> 
+ </div>
 
-<<<<<<< HEAD
-  <nav> <a href="index.html" class="class3" > <img src="logo.png" alt="logo" class="class2" class="img-fluid"> </a> 
- <a href="about.html" class="class3" target="_self">About</a> 
- <a href="projects.html"  class="class3" target="_self">Projects</a> 
- <a href="contact.html" class="class3" target="_self">Contacts</a> 
- </nav> <br>
+
+<div class="show-on-mobile hide-on-desktop">
+  <div class="topnav">
+    <a href="index.html" class="class3" > <img src="logo.png" alt="logo" class="class2" class="img-fluid">
+    <div id="myLinks">
+      <a href="about.html" class="class3" target="_self">About</a> 
+<a href="projects.html"  class="class3" target="_self">Projects</a> 
+<a href="contact.html" class="class3" target="_self">Contacts</a> 
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+</div>
+
+
+</nav>
+<br>
  
-=======
-  <div class="flex_container">
-    <div class="flex_item">
-       
-    
-     <nav>
-      <a href="index.html" class="class3"> <img src="logo.png" alt="logo" class="class2"> </a> 
-    
-        <a href="about.html" class="class3" target="_self">About</a> 
-        <a href="projects.html"  class="class3" target="_self">Projects</a> 
-        <a href="contact.html" class="class3" target="_self">Contacts</a> 
-    
-    
-     </nav> <br>
-     </div>
-    <br>
-
-<pre>
-
-
-</pre>
-
-
-<div class="flex_item">
-  
->>>>>>> 732e12a3732959350db144e37d6fb0121898129e
 <h1>My projects</h1><br>
 
 <br>
