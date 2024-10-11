@@ -1,8 +1,8 @@
 <!DOCTYPE html> 	
-<html lang="fi">
+<html lang="en">
 <head>
 
-<title>Lorem</title>
+<title>About</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
@@ -18,43 +18,39 @@
     
 <body>
   <div class="show-on-desktop hide-on-mobile">
- <nav class="class2"> 
-  <a href="index.html" class="class3" > <img src="logo.png" alt="logo" class="class2" class="img-fluid"> <p class="class4">Simo Karhu</p></a> 
-</nav>
-
+  <nav class="class2"> 
+  <a href="index.html" class="class3" > <img src="logo.png" alt="logo" class="class2"> <p class="class4">Simo Karhu</p></a> 
+  </nav>
   <nav> 
-<a href="about.html" class="class3" target="_self">About</a> 
-<a href="projects.html"  class="class3" target="_self">Projects</a> 
-<a href="contact.html" class="class3" target="_self">Contacts</a> 
- </div>
-</nav>
-
-<div class="show-on-mobile hide-on-desktop">
-  <div class="topnav">
-    <a href="index.html" class="class3" > <img src="logo.png" alt="logo" class="class2" class="img-fluid"> <p class="class4">Simo Karhu</p></a> 
-    <div id="myLinks">
-      <a href="about.html" class="class3" target="_self">About</a> 
-<a href="projects.html"  class="class3" target="_self">Projects</a> 
-<a href="contact.html" class="class3" target="_self">Contacts</a> 
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+  <a href="about.html" class="class3" target="_self">About</a> 
+  <a href="projects.html"  class="class3" target="_self">Projects</a> 
+  <a href="contact.html" class="class3" target="_self">Contacts</a> 
+  </nav>
   </div>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
+  
+  <div class="show-on-mobile hide-on-desktop">
+    <div class="topnav">
+      <a href="index.html" class="class3" > <img src="logo.png" alt="logo" class="class2"> <p class="class4">Simo Karhu</p></a> 
+      <div id="myLinks">
+        <a href="about.html" class="class3" target="_self">About</a> 
+  <a href="projects.html"  class="class3" target="_self">Projects</a> 
+  <a href="contact.html" class="class3" target="_self">Contacts</a> 
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
         }
-      }
-      </script>
-</div>
-
-
-</nav>
+        </script>
+  </div>
 <br>
   
 <h1>About me</h1><br>
@@ -66,10 +62,5 @@
   Sed non ante maximus, cursus tellus vel, tempus augue.
   </p>
 
-</div>
-
-
-
-  </body>
-
+</body>
 </html>
